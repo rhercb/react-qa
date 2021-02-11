@@ -8,6 +8,7 @@ ReactDOM.render(
   <Provider store={store}>
     <React.StrictMode>
       <App />
+      {process.env.REACT_APP_TEST}
     </React.StrictMode>
   </Provider>,
 
